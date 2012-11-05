@@ -9,7 +9,8 @@
 	<app main="Main" file="DeviceInfo" path="bin" />
 	
 	<window background="#000000" fps="30" />
-	<window width="1024" height="1024" vsync="true"/>
+	<window width="1024" height="768" if="flash" />
+	<window width="0" height="0" vsync="true" if="cpp" />
 	<!--<window orientation="landscape" antialiasing="0" if="cpp" />-->
 	
 	<!-- classpath, haxe libs -->

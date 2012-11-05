@@ -5,9 +5,9 @@
     <movie outputType="Application" />
     <movie input="" />
     <movie path="project.nmml" />
-    <movie fps="60" />
+    <movie fps="30" />
     <movie width="1024" />
-    <movie height="768" />
+    <movie height="1024" />
     <movie version="3" />
     <movie minorVersion="0" />
     <movie platform="NME" />
