@@ -86,14 +86,11 @@ class Main extends Sprite {
 		text.totalMemory.value = System.totalMemory;
 		
 		#if cpp
-		text.applicationDirectory.value = File.applicationDirectory;
-		text.applicationStorageDirectory.value = File.applicationStorageDirectory;
-		text.desktopDirectory.value = File.desktopDirectory;
-		text.documentsDirectory.value = File.documentsDirectory;
-		text.userDirectory.value = File.userDirectory;
-		var file:File = new File();
-		text.nativePath.value = file.nativePath;
-		text.url.value = file.url;
+		text.applicationDirectory.value = File.applicationDirectory.nativePath;
+		text.applicationStorageDirectory.value = File.applicationStorageDirectory.nativePath;
+		text.desktopDirectory.value = File.desktopDirectory.nativePath;
+		text.documentsDirectory.value = File.documentsDirectory.nativePath;
+		text.userDirectory.value = File.userDirectory.nativePath;
 		#end
 		
 		#if flash

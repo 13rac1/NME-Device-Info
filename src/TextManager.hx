@@ -49,8 +49,7 @@ class TextManager extends Sprite {
 	public var desktopDirectory:LabelField;
 	public var documentsDirectory:LabelField;
 	public var userDirectory:LabelField;
-	public var nativePath:LabelField;
-	public var url:LabelField;
+
 	public var fonts:LabelField;
 
 	public var maxTouchPoints:LabelField;
@@ -121,8 +120,6 @@ class TextManager extends Sprite {
 		desktopDirectory = create('desktopDirectory');
 		documentsDirectory = create('documentsDirectory');
 		userDirectory = create('userDirectory');
-		nativePath = create('nativePath');
-		url = create('url');
 		#end
 		//@todo:nme.filesystem.StorageVolume
 		
