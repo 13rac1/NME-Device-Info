@@ -1,10 +1,10 @@
 package;
-import nme.text.TextField;
-import nme.text.TextFormat;
+import flash.text.TextField;
+import flash.text.TextFormat;
 
 class LabelField extends TextField {
 	private var label:String;
-	public var value(null, setValue):Dynamic;
+	public var value(null, set_value):Dynamic;
 	
 	public function new(newLabel:String, textFormat:TextFormat) {
 		super();
@@ -14,7 +14,7 @@ class LabelField extends TextField {
 		
 	}
 
-	public function setValue(newValue:Dynamic):String {
+	public function set_value(newValue:Dynamic):String {
 		var string:String = Std.string(newValue);
 		text = label + ": " + string;
 		return string;

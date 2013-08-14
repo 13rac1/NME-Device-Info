@@ -1,6 +1,6 @@
 package ;
-import nme.text.TextField;
-import nme.text.TextFormat;
+import flash.text.TextField;
+import flash.text.TextFormat;
 import flash.display.Sprite;
 
 /**

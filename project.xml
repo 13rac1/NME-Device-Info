@@ -25,7 +25,7 @@
 	<ndll name="std" />
 	<ndll name="regexp" />
 	<ndll name="zlib" />
-	<ndll name="nme" haxelib="nme" />
+	<ndll name="nme" haxelib="openfl-native" />
 
 	<!-- optimize JS output -->
 	<haxeflag name="--dead-code-elimination" if="html5" />

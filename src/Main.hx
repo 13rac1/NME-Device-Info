@@ -1,21 +1,21 @@
 package ;
 
-import nme.Lib;
-import nme.display.Sprite;
-import nme.display.Graphics;
-import nme.events.Event;
-import nme.events.MouseEvent;
-import nme.Vector;
+import flash.Lib;
+import flash.display.Sprite;
+import flash.display.Graphics;
+import flash.events.Event;
+import flash.events.MouseEvent;
+import flash.Vector;
 
-import nme.sensors.Accelerometer;
-import nme.events.AccelerometerEvent;
-import nme.feedback.Haptic;
-import nme.ui.Multitouch;
-import nme.ui.MultitouchInputMode;
-import nme.system.Capabilities;
-import nme.system.System;
-import nme.filesystem.File;
-import nme.text.Font;
+import flash.sensors.Accelerometer;
+import flash.events.AccelerometerEvent;
+//import flash.feedback.Haptic;
+import flash.ui.Multitouch;
+import flash.ui.MultitouchInputMode;
+import flash.system.Capabilities;
+import flash.system.System;
+import flash.filesystem.File;
+import flash.text.Font;
 #if cpp
 import sys.net.Host;
 #end
@@ -162,13 +162,13 @@ class Main extends Sprite {
 
 	private function button1_onclick(event:MouseEvent):Void {
 		#if cpp
-		Haptic.vibrate(0, 1000);
+		//Haptic.vibrate(0, 1000);
 		#end
 	}
 
 	private function button2_onclick(event:MouseEvent):Void {
 		#if cpp
-		Haptic.vibrate(10, 1000);
+		//Haptic.vibrate(10, 1000);
 		#end
 	}
 }
